@@ -1,0 +1,5 @@
+FROM centos
+MAINTAINER sobha
+RUN yum install git -y
+EXPOSE 80
+CMD ["/bin/bash"]
